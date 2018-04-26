@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  creeptobot:
+    image: creeptobot
+    build:
+      context: ./creeptobot
+      dockerfile: Dockerfile
